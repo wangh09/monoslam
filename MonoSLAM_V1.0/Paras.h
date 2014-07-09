@@ -1,0 +1,18 @@
+#pragma once
+#define PI 3.14159265359
+#define CacheSize 1000
+#define nFeatureSize 1000
+#define TrackCacheSize 5000
+enum FRAMESOURCE{
+	FROM_AVI_VIDEO,
+	FROM_CAMERA
+};
+enum FEATUREDETECTOR{
+	FAST_FEATURE
+};
+enum FEATUREDESCRIPTOR{
+	SHITOMASI_DESCRIPTOR
+};
+enum TRACKERTYPE{
+	ZENAN_TRACKER
+};

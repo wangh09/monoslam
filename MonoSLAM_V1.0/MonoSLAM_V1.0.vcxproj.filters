@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{3c4cbc05-7ca1-4e1d-9692-6f253e7f39a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ParaDefinition">
+      <UniqueIdentifier>{e3557d92-0500-4da6-99ef-1b2026477e9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Node">
+      <UniqueIdentifier>{c9df692c-e3c5-44b3-bbe0-181652f34e08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Node\FrameHandler">
+      <UniqueIdentifier>{d73271b4-dbff-45b1-9870-f0d68cb5ad89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Node\FeaturePointsHandler">
+      <UniqueIdentifier>{f35b8020-bc16-4918-a387-a29a6ff8828c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Node\FeaturePointsHandler\FeatureDescriptor">
+      <UniqueIdentifier>{2e3b0ce4-84c1-48a4-8886-a7bbf8608006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Node\FeaturePointsHandler\FeatureDescriptor\vitualclass">
+      <UniqueIdentifier>{31334101-7ec8-453e-ade8-91310068d79e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Edge">
+      <UniqueIdentifier>{1ee9328f-014b-4daa-8508-0f08125e10c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Edge\TrackerHandler">
+      <UniqueIdentifier>{80fe475b-67e9-4bb1-ba40-fb7a3051e0a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Edge\Tracker">
+      <UniqueIdentifier>{828016b1-d932-47d7-868a-b41cdb48e29e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Paras.h">
+      <Filter>ParaDefinition</Filter>
+    </ClInclude>
+    <ClInclude Include="Descriptor_ShiTomasi.h">
+      <Filter>Node\FeaturePointsHandler\FeatureDescriptor</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatureHandler.h">
+      <Filter>Node\FeaturePointsHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameCapture.h">
+      <Filter>Node\FrameHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameTool.h">
+      <Filter>Node\FrameHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackGraph.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatureHeads.h">
+      <Filter>ParaDefinition</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackInfo.h">
+      <Filter>Edge</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatureTracker.h">
+      <Filter>Edge\TrackerHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameFeatDes.h">
+      <Filter>Node\FeaturePointsHandler\FeatureDescriptor\vitualclass</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracker.h">
+      <Filter>Edge\Tracker</Filter>
+    </ClInclude>
+    <ClInclude Include="ZeNanTracker.h">
+      <Filter>Edge\Tracker</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Descriptor_ShiTomasi.cpp">
+      <Filter>Node\FeaturePointsHandler\FeatureDescriptor</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureHandler.cpp">
+      <Filter>Node\FeaturePointsHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameCapture.cpp">
+      <Filter>Node\FrameHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameTool.cpp">
+      <Filter>Node\FrameHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackGraph.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureTracker.cpp">
+      <Filter>Edge\TrackerHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="ZeNanTracker.cpp">
+      <Filter>Edge\Tracker</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
